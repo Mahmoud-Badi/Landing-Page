@@ -8,7 +8,7 @@ This is a modern landing page built as part of [The Odin Project - Foundations C
 
 ## Live Preview
 
-[View Site Here](https://Mahmoud-Badi.github.io/landing-page)
+[View Site Here](https://mahmoud-badi.github.io/Landing-Page/)
 
 ## Tech Used
 
