@@ -1,0 +1,230 @@
+/* getting fonts */
+@font-face {
+  font-family: 'Manrope';
+  src: url('./fonts/Manrope-Regular.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* general */
+html,body {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: Manrope;
+  background-color: #f1f5f9;
+  color: #6c64fb;
+  font-size: large;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #6c64fb;
+}
+
+/* hero section */
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 500px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  color: #6c64fb;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 4%;
+}
+
+.demo-button {
+  background-color: #6c64fb;
+  color: #f1f5f9;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: .85rem 1.5rem;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+}
+
+.demo-button:hover {
+  background-color: #4f46e5;
+}
+
+.hero-graphic img {
+  padding: 15%;
+  max-width: 75%;
+  height: auto;
+}
+
+/* features section */
+
+.features {
+  padding: 4rem 2rem;
+  background-color: #f1f5f9;
+  color: #0f172a;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 3.5rem;
+  width: 100%;
+}
+
+.feature-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card {
+  color: #f1f5f9;
+  background-color: #6c64fb;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem #0f172a;
+  width: 250px;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.card h3 {
+  text-align: center;
+  font-size: x-large;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* testimonials section */
+
+.testimonials {
+  padding: 4rem 2rem;
+  background-color: #e2e8f0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.testimonials > .testimonial {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin: 1rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem #0f172a;
+  text-align: left;
+}
+
+/* call to action section */
+
+.cta {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #6c64fb;
+  color: white;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5%;
+}
+
+.cta-button {
+  background-color: #f1f5f9;
+  color: #6c64fb;
+  padding: 0.85rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e2e8f0;
+}
+
+/* footer */
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+footer nav {
+  margin-top: 0.5rem;
+}
+
+footer a {
+  color: #6b7280;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+footer a:hover {
+  color: #6c64fb;
+}
+
