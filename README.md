@@ -41,7 +41,7 @@ This is a modern landing page built as part of [The Odin Project - Foundations C
 ## Credits
 
 - Design provided by The Odin Project
-- SVG from from [undraw](https://undraw.co)
+- SVG from [undraw](https://undraw.co)
 
 ---
 
