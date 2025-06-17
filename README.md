@@ -30,6 +30,7 @@ This is a modern landing page built as part of [The Odin Project - Foundations C
 - How to structure a full-page layout with HTML
 - Using Flexbox to align and distribute elements
 - Linking HTML and CSS for effective web design and layout
+- Importing and applying custom fonts to improve website typography
 - Working with Git and publishing via GitHub Pages
 
 ## Future Improvements
